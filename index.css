@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    position: relative;
+    width: 1190px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+/* 游戏主界面 */
+.all .wrapper {
+    position: absolute;
+    text-align: center;
+}
+.all .wrapper .wrapperTop {
+    width: 1190px;
+    height: 200px;
+}
+.all .wrapper .wrapperTop .score {
+    display: inline-block;
+    font-size: 150px;
+    font-weight: 700;
+}
+/* 游戏区 */
+.all .wrapper .main {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(img/backgroung.png);
+    background-size: 100% 100%;
+    width: 884px;
+    height: 490px;
+}
+.all .wrapper .main .continueAndPause {
+    position: absolute;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.all .wrapper .main .content {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 44px;
+    width: 800px;
+    height: 400px;
+}
+.all .wrapper .main .content .dollar {
+    background-image: url(img/dollar.png);
+    background-size: 100% 100%;
+}
+.all .wrapper .main .content .head {
+    background-image: url(img/head.png);
+    background-size: 100% 100%;
+}
+.all .wrapper .main .content .body {
+    background-image: url(img/body.png);
+    background-size: 100% 100%;
+}
+
+/* 开始界面 */
+.all .startPage {
+    position: absolute;
+    width: 1190px;
+    height: 490px;
+    margin-top: 200px;
+    text-align: center;
+}
+.all .startPage .startBtn {
+    display: inline-block;
+    margin: 0 auto;
+    width: 884px;
+    height: 490px;
+    cursor: pointer;
+}
+
+/* 结束界面 */
+.all .over {
+    display: none;
+    width: 1190px;
+    height: 490px;
+    text-align: center;
+}
+.all .over .loserScore {
+    display: inline-block;
+    width: 1190px;
+    height: 200px;
+    font-size: 150px;
+    font-weight: 700;
+}
+.all .over .con {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(img/gameover.png);
+    background-size: 100% 100%;
+    width: 884px;
+    height: 490px;
+}
+.all .over .con .close {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 11px;
+    top: 11px;
+    cursor: pointer;
+}
